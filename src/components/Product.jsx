@@ -19,7 +19,7 @@ const ProductCard = ({ prod }) => {
           <img src={image} className="card-img-top prod-img" alt="..." />
           <div>
             <h5 className="card-title">{cardTitle}</h5>
-            <p className="card-text">＄{price}</p>
+            <p className="card-text">＄ {price}</p>
           </div>
         </Link>
         <button className='btn btn-success' onClick={()=>{handleAddtoCart(prod)}}>AddtoCart</button>

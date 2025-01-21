@@ -25,6 +25,10 @@ const Home = () => {
           <h1 className='card-title text-center'>Accessories</h1>
           <img className='filter-img' src='./src/assets/accesories.jpeg' />
         </div>
+        <div className='card shadow'>
+          <h1 className='card-title text-center'>Electronics</h1>
+          <img className='filter-img' src='./src/assets/electronics.jpeg' />
+        </div>
       </div>
       {/* Testimonial Section */}
       <div className="testimonials-section text-center mx-3 my-5">
